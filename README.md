@@ -1,7 +1,5 @@
 # Blog Simple realizado utilizando React.js, Node.js y MySQL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Run Client
 
 In the Client directory, you can run:
