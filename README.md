@@ -29,3 +29,21 @@ This runs the Server on http://localhost:3333
 
 You must change database credentials to match your own and create your tables.
 
+Here are the tables used for this Project:
+
+CREATE TABLE `SCHEMA_NAME`.`TABLE_NAME` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` TEXT(500) NOT NULL,
+  `content` LONGTEXT NOT NULL,
+  `likes` VARCHAR(45) NULL,
+  `authorName` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+  
+  CREATE TABLE `SCHEMA_NAME`.`TABLE_NAME` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `userName` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `userPassword` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `userName_UNIQUE` (`userName` ASC) VISIBLE,
+  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE);
