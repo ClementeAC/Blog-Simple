@@ -6,7 +6,7 @@ In the Client directory, you can run:
 
 ### `npm install`
 
-This will install all the project dependencies. You must do this before running the Project
+This will install all the Client dependencies. You must do this before running the Project
 
 ### `npm start`
 
@@ -19,8 +19,13 @@ The page will reload if you make edits.
 
 In the Server directory, you can run:
 
+### `npm install`
+
+This will install all the Server dependencies. You must do this before running the Project
+
 ### `npm start`
 
 This runs the Server on http://localhost:3333
 
 You must change database credentials to match your own and create your tables.
+
